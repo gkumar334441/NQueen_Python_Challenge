@@ -27,7 +27,7 @@ Challenge Submitted with:
       step f: Repeation until a chromosome with maximum Fitness value is not found
       
 
-Result will be validated as per below guideline:
+Result validated as per below guideline:
 import requests
 url='https://lf8q0kx152.execute-api.us-east-2.amazonaws.com/default/computeFitnessScore'
 x=requests.post(url,json={"qconfig":"<<config parameters>>","userID":<<emp id>>,"githubLink":"<<git hub link>>"})
